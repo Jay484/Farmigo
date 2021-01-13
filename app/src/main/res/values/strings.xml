@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Farmigo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="states">States</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="markets">Markets</string>
+    <string name="Jan">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="Jun">Jun</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sep">Sep</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+    <string name="lang_select">Select language</string>
+    <string name="English">English</string>
+    <string name="Hindi">"हिंदी "</string>
+    <string name="lang_select_titl">Language</string>
+    <string name="emptyChart">Select markets to draw chart</string>
+    <string name="lose_data">You will lose current chart if language changed.</string>
+    <string name="desc">Onion rate per 100 kg</string>
+</resources>

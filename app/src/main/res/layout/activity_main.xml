@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/main_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                >
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:id="@+id/toolBar"
+                    >
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="left"
+                        android:id="@+id/toggel_button"
+                        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                        android:background="@drawable/ic_baseline_filter_list_24"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic|bold"
+                        android:textSize="23sp"
+                        android:text="F a r m i g o"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="right"
+                        />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:context=".MainActivity"-->
+<!--            android:id="@+id/mainLayout"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/data"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Raw"-->
+<!--                android:padding="5dp"-->
+<!--                android:textSize="20sp"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/states"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="State"-->
+<!--                android:padding="5dp"-->
+<!--                android:textSize="20sp"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/markets"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Markets"-->
+<!--                android:padding="5dp"-->
+<!--                android:textSize="20sp"/>-->
+
+<!--        </LinearLayout>-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mianFragment"
+            android:background="@color/colorPrimary"
+            />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farmigo</string>
+    <string name="states">" राज्य"</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="markets">बाजार</string>
+    <string name="Jan">" जन"</string>
+    <string name="Feb">" फ़र"</string>
+    <string name="Mar">मार्च</string>
+    <string name="Apr">अप्रै</string>
+    <string name="May">मई</string>
+    <string name="Jun">" जून"</string>
+    <string name="Jul">जुला</string>
+    <string name="Aug">अग</string>
+    <string name="Sep">सित</string>
+    <string name="Oct">अक्टू</string>
+    <string name="Nov">" नव"</string>
+    <string name="Dec">" दिसं"</string>
+    <string name="lang_select">"भाषा का चयन करें "</string>
+    <string name="English">English</string>
+    <string name="Hindi">"हिंदी "</string>
+    <string name="lang_select_titl">भाषा</string>
+    <string name="emptyChart">" चार्ट बनाने के लिए बाजारों का चयन करें"</string>
+    <string name="lose_data">"यदि भाषा बदली गई तो आप वर्तमान चार्ट खो देंगे। "</string>
+    <string name="desc">प्याज की दर प्रति 100 किग्रा</string>
+</resources>
